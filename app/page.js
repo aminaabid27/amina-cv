@@ -282,10 +282,6 @@ export default function Page() {
           </div>
         </article>
 
-        <footer className="text-center text-secondary small mt-3 d-print-none">
-          Tip: Use <span className="fw-semibold">Print / Save PDF</span> for a
-          clean one-page export.
-        </footer>
       </main>
     </>
   );
