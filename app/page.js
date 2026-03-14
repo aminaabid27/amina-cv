@@ -85,6 +85,27 @@ export default function Page() {
                     analysis, and reporting.
                   </p>
                 </section>
+
+                <section className="section-card mt-4 d-lg-none" aria-label="Core Skills">
+                  <h2 className="section-title">Core Skills</h2>
+
+                  <div className="chips">
+                    <span className="chip">Python</span>
+                    <span className="chip">SQL</span>
+                    <span className="chip">Power BI</span>
+                    <span className="chip">Data Visualization</span>
+                    <span className="chip">Data Cleaning</span>
+                    <span className="chip">Machine Learning</span>
+                    <span className="chip">Computer Vision (YOLOv8)</span>
+                    <span className="chip">UI/UX</span>
+                    <span className="chip">Next.js</span>
+                    <span className="chip">Node.js</span>
+                    <span className="chip">MySQL</span>
+                    <span className="chip">PostgreSQL</span>
+                    <span className="chip">Reporting</span>
+                    <span className="chip">Team Collaboration</span>
+                  </div>
+                </section>
               </div>
 
               <div className="col-12 col-lg-8">
@@ -205,7 +226,7 @@ export default function Page() {
 
               <div className="col-12 col-lg-4">
                 <aside>
-                  <section className="section-card section-card-muted" aria-label="Core Skills">
+                  <section className="section-card section-card-muted d-none d-lg-block" aria-label="Core Skills">
                     <h2 className="section-title">Core Skills</h2>
 
                     <div className="chips">
