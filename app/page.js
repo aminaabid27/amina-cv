@@ -32,7 +32,7 @@ export default function Page() {
                     <div className="d-flex flex-column gap-1">
                       <div>
                         <i className="bi bi-geo-alt me-2 text-secondary" />
-                        Rawalpindi, Punjab, Pakistan
+                        Rawalpindi, Punjab, Pakistan.
                       </div>
                       <div>
                         <i className="bi bi-telephone me-2 text-secondary" />
