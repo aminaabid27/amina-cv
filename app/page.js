@@ -64,9 +64,9 @@ export default function Page() {
                   </div>
                 </div>
 
-                <hr className="my-4" />
+                <div className="divider" />
 
-                <section aria-label="Summary">
+                <section className="section-card" aria-label="Summary">
                   <h2 className="section-title">Professional Summary</h2>
                   <p className="mb-0">
                     Master’s student in{" "}
@@ -88,7 +88,7 @@ export default function Page() {
               </div>
 
               <div className="col-12 col-lg-8">
-                <section aria-label="Work Experience">
+                <section className="section-card" aria-label="Work Experience">
                   <h2 className="section-title">Work Experience</h2>
 
                   <div className="item">
@@ -156,44 +156,56 @@ export default function Page() {
                   </div>
                 </section>
 
-                <section className="mt-4" aria-label="Projects">
-                  <h2 className="section-title">Projects</h2>
+                <section className="section-card mt-4" aria-label="Education">
+                  <h2 className="section-title">Education</h2>
 
                   <div className="item">
                     <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
                       <div>
-                        <div className="item-title">
-                          Virtual Health Assistant (Final Year Project)
-                        </div>
-                        <div className="item-subtitle">
-                          Next.js, Flask, PostgreSQL, Firebase
-                        </div>
+                        <div className="item-title">Bahria University, Islamabad</div>
+                        <div className="item-subtitle">Master of Science — Data Science</div>
                       </div>
-                      <div className="item-meta">Present</div>
+                      <div className="item-meta">Feb 2024 – Jan 2026</div>
                     </div>
-                    <ul className="mt-2">
-                      <li>
-                        Built a web-based Virtual Health Assistant that uses AI and
-                        machine learning to support disease prediction, diagnosis,
-                        and clinical decision-making.
-                      </li>
-                      <li>
-                        Designed secure electronic patient record management with
-                        symptom analysis, medication recommendations, and role-based
-                        user authentication.
-                      </li>
-                      <li>
-                        Focused on usability, data security, and scalable
-                        healthcare workflows.
-                      </li>
-                    </ul>
+                  </div>
+
+                  <div className="item mb-0">
+                    <div className="d-flex justify-content-between align-items-baseline flex-wrap gap-2">
+                      <div>
+                        <div className="item-title">Bahria University, Islamabad</div>
+                        <div className="item-subtitle">Bachelor of Science — Computer Science</div>
+                      </div>
+                      <div className="item-meta">Jan 2020 – Jan 2024</div>
+                    </div>
+
+                    <div className="mt-3">
+                      <div className="item-title">Final Year Project</div>
+                      <div className="item-subtitle">Virtual Health Assistant</div>
+                      <ul className="mt-2">
+                        <li>
+                          Built a web-based Virtual Health Assistant that uses AI and
+                          machine learning to support disease prediction, diagnosis,
+                          and clinical decision-making.
+                        </li>
+                        <li>
+                          Designed secure electronic patient record management with
+                          symptom analysis, medication recommendations, and role-based
+                          user authentication.
+                        </li>
+                        <li>
+                          Developed using Next.js, Flask, PostgreSQL, and Firebase,
+                          focusing on usability, data security, and scalable workflows.
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </section>
+
               </div>
 
               <div className="col-12 col-lg-4">
                 <aside>
-                  <section aria-label="Core Skills">
+                  <section className="section-card section-card-muted" aria-label="Core Skills">
                     <h2 className="section-title">Core Skills</h2>
 
                     <div className="chips">
@@ -214,7 +226,7 @@ export default function Page() {
                     </div>
                   </section>
 
-                  <section className="mt-4" aria-label="Tools">
+                  <section className="section-card section-card-muted mt-4" aria-label="Tools">
                     <h2 className="section-title">Tools</h2>
                     <ul className="simple-list">
                       <li>Power BI</li>
@@ -224,27 +236,7 @@ export default function Page() {
                     </ul>
                   </section>
 
-                  <section className="mt-4" aria-label="Education">
-                    <h2 className="section-title">Education</h2>
-
-                    <div className="item">
-                      <div className="item-title">Bahria University, Islamabad</div>
-                      <div className="item-subtitle">
-                        Master of Science — Data Science
-                      </div>
-                      <div className="item-meta">Feb 2024 – Jan 2026</div>
-                    </div>
-
-                    <div className="item mt-3">
-                      <div className="item-title">Bahria University, Islamabad</div>
-                      <div className="item-subtitle">
-                        Bachelor of Science — Computer Science
-                      </div>
-                      <div className="item-meta">Jan 2020 – Jan 2024</div>
-                    </div>
-                  </section>
-
-                  <section className="mt-4" aria-label="Certifications">
+                  <section className="section-card section-card-muted mt-4" aria-label="Certifications">
                     <h2 className="section-title">Certifications</h2>
                     <div className="d-flex flex-column gap-2">
                       <div className="d-flex justify-content-between gap-3">
